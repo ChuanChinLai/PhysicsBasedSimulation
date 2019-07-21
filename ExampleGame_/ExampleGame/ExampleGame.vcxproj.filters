@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\GameEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ExampleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\BasicShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsAnimation\SimpleMassSpringAnimation.cpp">
+      <Filter>PhysicsAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ParticleSystemData.cpp">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsAnimation\IPhysicsAnimation.cpp">
+      <Filter>PhysicsAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsAnimation\FountainAnimation.cpp">
+      <Filter>PhysicsAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\PointParticleEmitter.cpp">
+      <Filter>ParticleSystem\ParticleEmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\IParticleEmitter.cpp">
+      <Filter>ParticleSystem\ParticleEmitter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{363956e3-a145-4347-b569-958ee3b8d09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{f20cbd45-aaa3-4f8c-8a49-e1b5e73b6f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f4846933-1034-47ef-90a3-90787afa0ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysicsAnimation">
+      <UniqueIdentifier>{539c6f80-b061-499b-b6ee-8a0ccd7cd3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem">
+      <UniqueIdentifier>{45c9d12b-5ad4-4904-8e3d-e7364d41bda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\ParticleEmitter">
+      <UniqueIdentifier>{20557d93-6639-4ce4-9f32-665a1a351db6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\GameEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ExampleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BasicShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAnimation\IPhysicsAnimation.h">
+      <Filter>PhysicsAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAnimation\SimpleMassSpringAnimation.h">
+      <Filter>PhysicsAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ParticleSystemData.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAnimation\FountainAnimation.h">
+      <Filter>PhysicsAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\PointParticleEmitter.h">
+      <Filter>ParticleSystem\ParticleEmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\IParticleEmitter.h">
+      <Filter>ParticleSystem\ParticleEmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\IPointNeighborSearcher.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
